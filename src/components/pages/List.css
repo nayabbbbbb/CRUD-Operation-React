@@ -1,0 +1,70 @@
+* {
+    background-color: rgb(235, 231, 227);
+    color: rgb(13, 13, 14);
+}
+
+.list-user-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+.edit-btn {
+    background-color: #e4ba31;
+    border: 1px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-style: groove;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #b11111;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+td {
+    padding: 12px;
+    color: #111010;
+    text-align: left;
+    border: 2px solid #a35c8b;
+}
+
+.user-row {
+    background-color: #ce7676;
+}
+
+.edit-link,
+.delete-button,
+.clone-button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    color: #c59898;
+    text-decoration: none;
+}
+
+.edit-link {
+    background-color: #007bff;
+}
+
+.delet-btn {
+    background-color: #dc3545;
+}
+
+.clone-btn {
+    background-color: #28a745;
+}
